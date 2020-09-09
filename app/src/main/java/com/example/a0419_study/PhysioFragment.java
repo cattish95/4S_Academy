@@ -1,10 +1,13 @@
 package com.example.a0419_study;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -33,7 +36,6 @@ public class PhysioFragment extends Fragment{
         adapter = new PhysioViewAdapter(getActivity(), list);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         recyclerView.setAdapter(adapter);
-
         Log.d("PhysioFrag", "MainFragment");
 
         return root;
