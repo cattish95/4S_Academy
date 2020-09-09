@@ -52,7 +52,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="▶ 물리치료사\n▶ 4S Academy 대표\n▶ 윤통증의학과 실장\n▶ 오십견스터디 강사"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:textColor="#000000"/>
 
             </LinearLayout>
 
@@ -65,7 +66,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="▶ 정형도수전문물리치료사(KAOMPT)\n▶ 대한MSK피지오연구회(KIMSKP) 학술이사"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:textColor="#000000"/>
 
         <View
             android:layout_width="match_parent"
@@ -90,7 +92,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="4S Academy는 환자분의 빠른\n회복과 재활, 물리치료사님들의\n빠른 성장과 발전을 응원합니다.\n\n환자분에게는 셀프 프로그램을,\n치료선생님에게는 치료를 위한\n양질의 교육내용을 제공합니다.\n\n유익한 시간 되시길 바랍니다.\n감사합니다."
-                    android:textSize="16sp"/>
+                    android:textSize="16sp"
+                    android:textColor="#000000"/>
 
                 <ImageView
                     android:layout_width="150dp"

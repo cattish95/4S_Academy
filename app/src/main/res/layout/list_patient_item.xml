@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:text="표시되지 않는 글자입니다."
         android:textSize="30sp"
+        android:textColor="#000000"
         android:fontFamily="@font/font"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
