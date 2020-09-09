@@ -4,19 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingTop="25sp"
     tools:context=".QnaFragment">
 
-    <TextView
-        android:id="@+id/text_slideshow"
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
+        android:layout_height="400sp"
+        android:src="@drawable/img_qna"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        />
+
+    <Button
+        android:id="@+id/btn_qna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="27sp"
+        android:paddingLeft="30sp"
+        android:paddingRight="30sp"
+        android:paddingBottom="20sp"
+        android:textAlignment="center"
+        android:background="@drawable/item_line_background"
+        android:textSize="25sp"
+        android:text="권도수에게 물어보기"
+        android:fontFamily="@font/tmoney"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
